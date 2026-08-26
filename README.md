@@ -71,7 +71,7 @@ Sebagai *Data Analyst*, nilai tambah terbesar dalam proyek ini adalah menyelesai
 **Visualisasi ->** [Dashboard](https://datastudio.google.com/reporting/d57d3f10-fe90-484f-8ce7-4fa984ac6b71)
 
 ## 8. RAW Data
-**Raw Data->** [Olist Brazilian E-Commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+**Raw Data ->** [Olist Brazilian E-Commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
 
 #  Author
