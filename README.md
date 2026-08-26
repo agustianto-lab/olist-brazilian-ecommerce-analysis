@@ -6,7 +6,7 @@ SQL-based analysis, BigQuery, Looker (Google Data Studio)
 ## 1. Latar Belakang
 **Olist** adalah penyedia layanan pemasaran produk yang menghubungkan usaha kecil - menengah dari seluruh penjuru Brasil dengan saluran penjualan nasional. Dalam proyek analisis data ini, saya bertindak sebagai **Data Analyst** untuk mengevaluasi performa makro perusahaan berdasarkan dataset publik yang berisi **96.478 transaksi pesanan sukses (*delivered*)** sepanjang periode **September 2016 hingga September 2018**.
 
-Proyek ini dibangun secara *end-to-end* mulai dari proses pengolahan data mentah (*Exploratory Data Analysis* & *Data Cleansing*) menggunakan **Google Cloud Platform (GCP) BigQuery (SQL Standard)** hingga visualisasi interaktif menggunakan **Looker Studio**.
+Proyek ini dibangun secara *end-to-end* mulai dari proses pengolahan data mentah (*Exploratory Data Analysis* & *Data Cleansing*) menggunakan **Google Cloud Platform (GCP) BigQuery (SQL)** hingga visualisasi interaktif menggunakan **Looker Studio**.
 
 -------
 
@@ -20,7 +20,7 @@ Untuk memastikan analisa tetap fokus dan memberikan nilai bisnis yang nyata, rua
 -------
 
 ## 3. Arsitektur Data
-* **Data Warehouse & Transformation**: GCP BigQuery (SQL Standard)
+* **Data Warehouse & Transformation**: GCP BigQuery (SQL)
 * **Business Intelligence & Visualisasi**: Looker Studio (Google Data Studio)
 * **Pengolahan**: Pemanfaatan *Tabel Virtual (View)* untuk memisahkan logika agregasi kompleks di database dari fungsionalitas visualisasi di aplikasi BI.
 
@@ -30,7 +30,7 @@ Untuk memastikan analisa tetap fokus dan memberikan nilai bisnis yang nyata, rua
 Sebagai *Data Analyst*, nilai tambah terbesar dalam proyek ini adalah menyelesaikan kendala integritas data krusial di level database:
 
 ### A. Penyelamatan 4.000 Baris Teks Ulasan yang Rusak (*Quoted Newlines*)
-* **Masalah**: Kolom komentar pembeli (`review_comment_message`) mengandung banyak karakter pindah baris (*Enter/Newline*). Saat impor awal ke BigQuery, sistem salah membaca karakter Enter tersebut sebagai akhir dari baris data, menyebabkan ribuan baris teks terpotong menjadi baris tiruan baru dan merusak struktur tabel.
+* **Masalah**: Kolom komentar pembeli ('review_comment_message') mengandung banyak karakter pindah baris (*Enter/Newline*). Saat impor awal ke BigQuery, sistem salah membaca karakter Enter tersebut sebagai akhir dari baris data, menyebabkan ribuan baris teks terpotong menjadi baris tiruan baru dan merusak struktur tabel.
 * **Solusi**: Mengonfigurasi ulang parameter *Advanced Options* pada skema pengunggahan BigQuery dengan mengaktifkan fitur 'Allow Quoted Newlines' untuk menjaga keutuhan teks di dalam tanda kutip.
 
 -------
