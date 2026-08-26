@@ -3,7 +3,7 @@ SQL-based analysis, BigQuery, Looker (Google Data Studio)
 
 # Olist E-Commerce End-to-End Business Performance Analytics
 
-## 1. Latar Belakang Proyek
+## 1. Latar Belakang
 **Olist** adalah penyedia layanan pemasaran produk yang menghubungkan usaha kecil - menengah dari seluruh penjuru Brasil dengan saluran penjualan nasional. Dalam proyek analisis data ini, saya bertindak sebagai **Data Analyst** untuk mengevaluasi performa makro perusahaan berdasarkan dataset publik yang berisi **96.478 transaksi pesanan sukses (*delivered*)** sepanjang periode **September 2016 hingga September 2018**.
 
 Proyek ini dibangun secara *end-to-end* mulai dari proses pengolahan data mentah (*Exploratory Data Analysis* & *Data Cleansing*) menggunakan **Google Cloud Platform (GCP) BigQuery (SQL Standard)** hingga visualisasi interaktif menggunakan **Looker Studio**.
