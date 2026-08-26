@@ -68,17 +68,17 @@ Sebagai *Data Analyst*, nilai tambah terbesar dalam proyek ini adalah menyelesai
 -------
 
 ## 7. Link Dashboard
-**Visualisasi** [Dashboard](https://datastudio.google.com/reporting/d57d3f10-fe90-484f-8ce7-4fa984ac6b71)
+**Visualisasi ->** [Dashboard](https://datastudio.google.com/reporting/d57d3f10-fe90-484f-8ce7-4fa984ac6b71)
 
 
 #  Author
 
 **AGUSTIANTO**
 
-Aspiring Data Analyst
-
 Indonesia
 
- LinkedIn: [Agustianto](www.linkedin.com/in/agus-tianto-a305611a5)
-
- GitHub: [agustianto-lab](https://github.com/agustianto-lab)
+# LinkedIn
+ **LinkedIn:** [Agustianto](www.linkedin.com/in/agus-tianto-a305611a5)
+ 
+# Github
+ **GitHub:** [agustianto-lab](https://github.com/agustianto-lab)
