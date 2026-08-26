@@ -78,7 +78,7 @@ Sebagai *Data Analyst*, nilai tambah terbesar dalam proyek ini adalah menyelesai
 Indonesia
 
 # LinkedIn
- **LinkedIn:** [Agustianto](www.linkedin.com/in/agus-tianto-a305611a5)
+ **LinkedIn:** [Agustianto](https://linkedin.com/in/agus-tianto-a305611a5)
  
 # Github
  **GitHub:** [agustianto-lab](https://github.com/agustianto-lab)
