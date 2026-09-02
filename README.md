@@ -36,9 +36,31 @@ Sebagai *Data Analyst*, nilai tambah terbesar dalam proyek ini adalah menyelesai
 -------
 
 ## 5. Temuan Kunci Utama & Rekomendasi Bisnis (*Key Insights & Actionable Items*)
-1. **Kecepatan Pengiriman Mengontrol Kepuasan**: Terdapat korelasi linear yang sangat kuat antara efisiensi logistik dengan rating pembeli. Pelanggan yang memberikan **Bintang 1 mengalami rata-rata waktu tunggu hingga 20,8 hari**, sedangkan pelanggan **Bintang 5 menikmati pengiriman cepat rata-rata 10,2 hari**.
-2. **Estimasi Sistem**: Kolom ekspektasi ('avg_days_vs_estimate') menunjukkan nilai negatif, artinya hampir seluruh paket tiba **lebih cepat** dari janji sistem. Namun, ulasan Bintang 1 tetap masif karena total waktu tunggu 20,8 hari itu sendiri sudah melewati batas kesabaran belanja *online*.
-3. **Rekomendasi Strategis**: Manajemen Olist harus segera melakukan evaluasi kontrak kerja sama dengan mitra kurir pihak ketiga khusus di wilayah negara bagian yang memiliki durasi rata-rata pengiriman di atas 14 hari guna menekan angka keluhan.
+
+Berdasarkan hasil analisis data, berikut adalah jawaban atas empat pertanyaan bisnis utama:
+
+### 1. Tren Pertumbuhan & Volume Penjualan
+*   **Temuan Data**: Sepanjang periode operasional (2016-2018), Olist eCommerce berhasil membukukan **Total Pendapatan (Revenue) sebesar R$ 13.22M** dengan **Total Volume Transaksi mencapai 96.478 pesanan sukses**. 
+*   **Pola Tren**: Grafik tren bulanan menunjukkan pertumbuhan yang sangat agresif sejak kuartal ke-4 tahun 2017. Pola musiman (*seasonality*) puncak tertinggi terjadi pada bulan **November 2017** (mencapai omset bulanan tertinggi sekitar **R$ 987k**), yang didorong oleh momentum perayaan belanja nasional *Black Friday*.
+
+### 2. Dominasi Produk
+*   **Temuan Data**: Dari banyaknya kategori produk yang tersedia, struktur finansial Olist sangat bergantung pada **Top 5 Kategori Produk Teratas** yang menguasai porsi mayoritas keuntungan. 
+*   **Analisis Porsi**: Kategori **Health & Beauty** menempati posisi puncak sebagai penghasil uang terbesar perusahaan (menyumbang omset **R$ 1.23M / 9.3%**), diikuti sangat ketat oleh kategori **Watches & Gifts (R$ 1.16M / 8.8%)**, **Bed Bath Table (R$ 1.05M / 7.7%)**, **Sports Leisure (R$ 954K / 7.2%)**, dan **Computers Accessories (R$ 888K / 6.7%)**.
+
+### 3. Efisiensi Logistik
+*   **Temuan Data**: Performa ketepatan waktu kurir logistik Olist berada di angka yang sangat sehat, dengan **Tingkat Ketepatan Waktu (On-Time Delivery Rate) mengunci di angka 91.9%**. 
+*   **Analisis Ekspektasi**: Kolom ekspektasi ('avg_days_vs_estimate') menunjukkan nilai negatif di seluruh tingkatan kepuasan. Ini membuktikan bahwa secara sistematis, **91.9% paket murni tiba lebih cepat (lebih awal)** dibandingkan dengan tanggal janji batas estimasi pengiriman yang ditampilkan ke layar konsumen.
+
+### 4. Korelasi Logistik & Kepuasan Pelanggan
+*   **Temuan Data**: Ditemukan korelasi linear berbanding terbalik yang sangat kuat antara kecepatan pengiriman barang dengan rating pembeli. Pelanggan yang memberikan **Bintang 1 mengalami rata-rata waktu tunggu pengiriman terlama hingga 20.8 hari**, sedangkan pelanggan **Bintang 5 menikmati rata-rata kecepatan kurir hanya 10.2 hari**.
+*   **Kenyataan Bisnis**: Meskipun kurir berhasil mengirimkan paket 3 hari lebih cepat dari janji estimasi sistem, pelanggan Bintang 1 tetap memberikan penilaian buruk karena waktu tunggu yang selama 20.8 hari secara psikologis sudah melewati batas toleransi kesabaran belanja *online*.
+
+---
+
+### Rekomendasi Strategis untuk Manajemen (Actionable Items)
+1.  **Evaluasi Vendor Kurir**: Tim operasional Olist harus segera meninjau ulang kontrak kerja sama dengan mitra ekspedisi kurir, khususnya untuk rute pengiriman ke negara bagian terpencil yang rata-rata waktu tunggunya membengkak di atas 14 hari, guna menekan ulasan Bintang 1.
+2.  **Optimasi Alokasi Pemasaran Produk Premium**: Tim Marketing wajib memprioritaskan alokasi anggaran iklan dan diskon pada kategori *Health & Beauty* serta *Watches & Gifts*. Kedua kategori ini terbukti memiliki *Average Ticket Size* (harga per unit barang) yang tinggi, sehingga mendongkrak margin keuntungan jauh lebih cepat daripada produk bervolume tinggi berharga murah.
+3.  **Kalibrasi Algoritma Estimasi Waktu**: Mengubah algoritma penentuan tanggal estimasi di aplikasi agar tidak terlalu lama. Menjanjikan waktu pengiriman yang lebih realistis dan kompetitif akan membantu menjaga kestabilan ekspektasi kepuasan psikologis pelanggan sejak awal transaksi.
 
 -------
 
