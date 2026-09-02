@@ -41,11 +41,11 @@ Berdasarkan hasil analisis data, berikut adalah jawaban atas empat pertanyaan bi
 
 ### 1. Tren Pertumbuhan & Volume Penjualan
 *   **Temuan Data**: Sepanjang periode operasional (2016-2018), Olist eCommerce berhasil membukukan **Total Pendapatan (Revenue) sebesar R$ 13.22M** dengan **Total Volume Transaksi mencapai 96.478 pesanan sukses**. 
-*   **Pola Tren**: Grafik tren bulanan menunjukkan pertumbuhan yang sangat agresif sejak kuartal ke-4 tahun 2017. Pola musiman (*seasonality*) puncak tertinggi terjadi pada bulan **November 2017** (mencapai omset bulanan tertinggi sekitar **R$ 987k**), yang didorong oleh momentum perayaan belanja nasional *Black Friday*.
+*   **Pola Tren**: Grafik tren bulanan menunjukkan pertumbuhan yang sangat agresif sejak kuartal ke-4 tahun 2017. Pola musiman (*seasonality*) puncak tertinggi terjadi pada bulan **November 2017** (mencapai omset bulanan tertinggi sekitar **R$ 987k**).
 
 ### 2. Dominasi Produk
 *   **Temuan Data**: Dari banyaknya kategori produk yang tersedia, struktur finansial Olist sangat bergantung pada **Top 5 Kategori Produk Teratas** yang menguasai porsi mayoritas keuntungan. 
-*   **Analisis Porsi**: Kategori **Health & Beauty** menempati posisi puncak sebagai penghasil uang terbesar perusahaan (menyumbang omset **R$ 1.23M / 9.3%**), diikuti sangat ketat oleh kategori **Watches & Gifts (R$ 1.16M / 8.8%)**, **Bed Bath Table (R$ 1.05M / 7.7%)**, **Sports Leisure (R$ 954K / 7.2%)**, dan **Computers Accessories (R$ 888K / 6.7%)**.
+*   **Analisis Porsi**: Kategori **Health & Beauty** menempati posisi puncak sebagai penghasil uang terbesar perusahaan (menyumbang omset **R$ 1.23M / 9.3%**), diikuti sangat ketat oleh kategori **Watches & Gifts (R$ 1.16M / 8.8%)**, **Bed Bath Table (R$ 1.02M / 7.7%)**, **Sports Leisure (R$ 954K / 7.2%)**, dan **Computers Accessories (R$ 888K / 6.7%)**.
 
 ### 3. Efisiensi Logistik
 *   **Temuan Data**: Performa ketepatan waktu kurir logistik Olist berada di angka yang sangat sehat, dengan **Tingkat Ketepatan Waktu (On-Time Delivery Rate) mengunci di angka 91.9%**. 
