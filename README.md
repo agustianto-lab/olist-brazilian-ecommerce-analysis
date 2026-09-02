@@ -46,7 +46,7 @@ Sebagai *Data Analyst*, nilai tambah terbesar dalam proyek ini adalah menyelesai
 
 ### A. Fitur Dashboard
 * **Master Date Range Filter**: Dikunci pada periode operasional Olist (**September 2016 - September 2018**) tujuannya untuk menghindari *error* tampilan halaman kosong (*No Data*).
-* **Tombol Reset Filter Pas**: Menyediakan tombol **'Riset Filter'** khusus untuk menghapus semua seleksi filter sementara dalam sekali klik agar memudahkan kembali ke kondisi awal saat sesi presentasi.
+* **Tombol Reset Filter Pas**: Menyediakan tombol **'Reset Filter'** khusus untuk menghapus semua seleksi filter sementara dalam sekali klik agar memudahkan kembali ke kondisi awal saat sesi presentasi.
 
 ### B. Screenshot Tampilan Dashboard
 
