@@ -59,6 +59,7 @@ Sebagai *Data Analyst*, nilai tambah terbesar dalam proyek ini adalah menyelesai
 #### Halaman 5: Customer Satisfaction
 ![Customer Satisfaction](screenshots/05_Customer_Satisfaction.png)
 
+
 **Link Dashboard ->** [Dashboard](https://datastudio.google.com/reporting/d57d3f10-fe90-484f-8ce7-4fa984ac6b71)
 
 -------
